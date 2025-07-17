@@ -1,3 +1,6 @@
+/*
+ Write a program to print the area of square.
+ */
 public class squareArea {
     public static void main(String[] args){
         int side = 5;

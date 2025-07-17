@@ -1,3 +1,6 @@
+/*
+ Write a program to print the volume of sphere.
+ */
 public class sphereVolume {
     public static void main(String[] args){
         int diameter = 4;

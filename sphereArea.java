@@ -1,3 +1,6 @@
+/*
+ Write a program to print the area of sphere.
+ */
 public class sphereArea {
     public static void main(String[] args){
         int radius =  7;

@@ -1,3 +1,6 @@
+/*
+ Write a program to print the area of trapezium.
+ */
 public class trapeziumArea {
     public static void main(String[] args){
         int side1 = 4, side2 = 6;

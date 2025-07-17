@@ -1,3 +1,6 @@
+/*
+ Write a program to print the area of circle.
+ */
 public class circleArea {
     public static void main(String[] args){
         double pi = 3.14;

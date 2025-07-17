@@ -1,3 +1,6 @@
+/*
+ Write a program to print the area of triangle.
+ */
 public class triangleArea {
     public static void main(String[] args){
         int base = 6;
