@@ -10,28 +10,48 @@ Welcome! This repository contains a collection of basic Java practice questions 
 
 ## Structure
 
+All questions and their solutions will be uploaded in the single folder:
 ```
-Java-Practice-Question/-
-1. Write a program to find the area of circle.
-2. Write a program to print the area of cone.
-3. Write a program to print the area of cube.
-4. Write a program to print the volume of cube.
-5. Write a program to print the area of cuboid.
-6. Write a program to print the volume of cuboid.
-7. Write a program to print the area of cylinder.
-8. Write a program to print the area of prism.
-9. Write a program to print the area of rectangle.
-10. Write a program to print the area of rhombus.
-11. Write a program to prin the area of sphere.
-12. Write a program to print the volume of sphere.
-13. Write a program to print the area of square.
-14. Write a program to print the area of trapezium.
-15. Write a program to print the area of triangle.
+Java-Practice-Question/
+├── circleArea/
+├── coneArea/
+├── cubeArea/
+├── cubeVolume/
+├── cuboidArea/
+├── cuboidVolume/
+├── cylinderArea/
+├── prismArea/
+├── rectangleArea/
+├── rhombusArea/
+├── sphereArea/
+├── sphereVolume/
+├── squareArea/
+├── trapeziumArea/
+├── triangleArea/
+├── README.md
 ```
+
+### Example Questions
+
+1. Write a program to find the area of a circle.
+2. Write a program to print the area of a cone.
+3. Write a program to print the area of a cube.
+4. Write a program to print the volume of a cube.
+5. Write a program to print the area of a cuboid.
+6. Write a program to print the volume of a cuboid.
+7. Write a program to print the area of a cylinder.
+8. Write a program to print the area of a prism.
+9. Write a program to print the area of a rectangle.
+10. Write a program to print the area of a rhombus.
+11. Write a program to print the area of a sphere.
+12. Write a program to print the volume of a sphere.
+13. Write a program to print the area of a square.
+14. Write a program to print the area of a trapezium.
+15. Write a program to print the area of a triangle.
 
 ## How to Use
 
-- Browse the questions in the `src/basic/` folder.
+- Browse the questions in the `Java-Practice-Question/` folder.
 - Try solving them on your own.
 - Use and modify the code as needed for practice.
 
