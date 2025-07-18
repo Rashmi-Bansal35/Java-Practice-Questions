@@ -4,30 +4,30 @@ Welcome! This repository contains a collection of basic Java practice questions 
 
 ## About
 
-- 🧑‍💻 **Learning Journey**: This repo is part of my journey to learn Java from scratch.
-- 📚 **Basic Questions**: The questions here focus on Java basics—variables, loops, conditionals, functions, and simple classes.
-- 📝 **Practice-Oriented**: Each file typically contains one or more questions, and I try to solve them myself to understand coding concepts better.
+- 🧑‍💻 **Learning Journey:** This repo documents my journey to learn Java from scratch.
+- 📚 **Basic Questions:** The questions focus on Java basics—variables, loops, conditionals, functions, and simple classes.
+- 📝 **Practice-Oriented:** Each file contains a Java program that solves a basic problem, helping me understand coding concepts better.
 
 ## Structure
 
-All questions and their solutions will be uploaded in the single folder:
+All questions and their solutions are uploaded directly into a single folder:
 ```
 Java-Practice-Question/
-├── circleArea/
-├── coneArea/
-├── cubeArea/
-├── cubeVolume/
-├── cuboidArea/
-├── cuboidVolume/
-├── cylinderArea/
-├── prismArea/
-├── rectangleArea/
-├── rhombusArea/
-├── sphereArea/
-├── sphereVolume/
-├── squareArea/
-├── trapeziumArea/
-├── triangleArea/
+├── CircleArea.java
+├── ConeArea.java
+├── CubeArea.java
+├── CubeVolume.java
+├── CuboidArea.java
+├── CuboidVolume.java
+├── CylinderArea.java
+├── PrismArea.java
+├── RectangleArea.java
+├── RhombusArea.java
+├── SphereArea.java
+├── SphereVolume.java
+├── SquareArea.java
+├── TrapeziumArea.java
+├── TriangleArea.java
 ├── README.md
 ```
 
@@ -51,8 +51,8 @@ Java-Practice-Question/
 
 ## How to Use
 
-- Browse the questions in the `Java-Practice-Question/` folder.
-- Try solving them on your own.
+- Browse the files in the `Java-Practice-Question/` folder.
+- Try solving the questions on your own.
 - Use and modify the code as needed for practice.
 
 ## My Goals
