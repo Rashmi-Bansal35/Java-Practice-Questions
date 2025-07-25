@@ -8,30 +8,24 @@ Welcome! This repository contains a collection of basic Java practice questions 
 - 📚 **Basic Questions:** The questions focus on Java basics—variables, loops, conditionals, functions, and simple classes.
 - 📝 **Practice-Oriented:** Each file contains a Java program that solves a basic problem, helping me understand coding concepts better.
 
-## Structure
+## 📁 Folder Structure
 
-All questions and their solutions are uploaded directly into a single folder:
-```
-Java-Practice-Question/
-├── CircleArea.java
-├── ConeArea.java
-├── CubeArea.java
-├── CubeVolume.java
-├── CuboidArea.java
-├── CuboidVolume.java
-├── CylinderArea.java
-├── PrismArea.java
-├── RectangleArea.java
-├── RhombusArea.java
-├── SphereArea.java
-├── SphereVolume.java
-├── SquareArea.java
-├── TrapeziumArea.java
-├── TriangleArea.java
-├── README.md
-```
+- `Basic Java/` – Questions about variables, data types, and output in java.
+- `Input/` – Questions related to taking input from user.
+- `Statements/` – Questions on decision-making structures (if, else, switch, etc.).
 
-### Example Questions
+## 📝 How to Use
+
+- Browse the folders by topic and select questions to practice.
+- Try solving each problem yourself before checking the solution.
+- Use this repository to practice, revise, or prepare for coding interviews.
+- Fork the repo and add your own solutions if you like!
+
+---
+
+## 📝 Questions List
+
+### Basic Java
 
 1. Write a program to find the area of a circle.
 2. Write a program to print the area of a cone.
@@ -49,11 +43,6 @@ Java-Practice-Question/
 14. Write a program to print the area of a trapezium.
 15. Write a program to print the area of a triangle.
 
-## How to Use
-
-- Browse the files in the `Java-Practice-Question/` folder.
-- Try solving the questions on your own.
-- Use and modify the code as needed for practice.
 
 ## My Goals
 
