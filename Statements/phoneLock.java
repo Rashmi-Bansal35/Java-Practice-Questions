@@ -8,10 +8,10 @@ import java.util.Scanner;
 public class phoneLock {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
-        int password = 3112;
+        String password = "Rashmi";
         System.out.print("Enter password to unlock the phone: ");
-        int unlockPassword = input.nextInt();
-        if (password == unlockPassword){
+        String unlockPassword = input.nextLine();
+        if (password.equals(unlockPassword)){
             System.out.println("Phone Unlocked");
         }
         else{
