@@ -22,10 +22,10 @@ public class IncomeTaxCalculator{
                 tax = 0;
             }
             else if (income <= 500000){
-                tax = (500000 - 180000) * 0.1;
+                tax = (income - 180000) * 0.1;
             }
             else if (income <= 800000){
-                tax = 32000 + (800000 - 500000) * 0.2;
+                tax = 32000 + (income - 500000) * 0.2;
             }
             else if (income > 800000){
                 tax = 32000 + 60000 + (income - 800000) * 0.3;
@@ -36,10 +36,10 @@ public class IncomeTaxCalculator{
                 tax = 0;
             }
             else if (income <= 500000){
-                tax = (500000 - 190000) * 0.1;
+                tax = (income - 190000) * 0.1;
             }
             else if (income <= 800000){
-                tax = 31000 + (800000 - 500000) * 0.2;
+                tax = 31000 + (income - 500000) * 0.2;
             }
             else if (income > 800000){
                 tax = 31000 + 60000 + (income - 800000) * 0.3;
