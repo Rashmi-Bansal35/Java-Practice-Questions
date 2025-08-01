@@ -13,6 +13,7 @@ Welcome! This repository contains a collection of basic Java practice questions 
 - `Basic Java/` – Questions about variables, data types, and output in java.
 - `Input/` – Questions related to taking input from user.
 - `Statements/` – Questions on decision-making structures (if, else, switch, etc.).
+- `Loops/` - Quesion based on pretesting (while, for and for each) and post-testng (do-while) loops
 
 ## 📝 How to Use
 
