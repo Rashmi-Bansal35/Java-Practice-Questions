@@ -1,7 +1,7 @@
 /*
 Write a program to print 200 to 150 even and odd numbers.
  */
-package Loops;
+package Statements;
 import java.util.Scanner;
 
 public class PrintNumbers {

@@ -1,7 +1,7 @@
 /*
 Write a program to print 1 to 100 even and odd number.
  */
-package Loops;
+package Statements;
 import java.util.Scanner;
 public class PrintOddEven {
     public static void main(String[] args){
