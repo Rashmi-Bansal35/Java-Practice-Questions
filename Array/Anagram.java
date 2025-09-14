@@ -1,9 +1,10 @@
+package Array;
 /*
 Write a program to check if two strings are Anagram.
 */
 import java.util.Scanner;
 
-public class Solution {
+public class Anagram {
 
     static boolean isAnagram(String a, String b) {
         if(a.length() == b.length()){

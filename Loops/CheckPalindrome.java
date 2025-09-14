@@ -1,3 +1,4 @@
+package Loops;
 /*
 Write a program to check if string is palindrome or not.
 */
