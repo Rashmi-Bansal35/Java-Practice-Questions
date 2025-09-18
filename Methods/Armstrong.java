@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 public class Armstrong {
     public static int digits(int number){
-        int count = 0, digit1 = 0;
+        int count = 0;
         while(number != 0){
-            digit1 = number % 10;
+            int digit1 = number % 10;
             number /= 10;
             count++;
         }
