@@ -26,6 +26,7 @@ Welcome! This repository contains a collection of basic Java practice questions 
 
 ## 📝 Questions List
 
+
 ### Basic Java
 
 1. Write a program to find the area of a circle.
