@@ -14,6 +14,9 @@ Welcome! This repository contains a collection of basic Java practice questions 
 - `Input/` – Questions related to taking input from user.
 - `Statements/` – Questions on decision-making structures (if, else, switch, etc.).
 - `Loops/` - Quesion based on pretesting (while, for and for each) and post-testng (do-while) loops
+- `Array/` - Question based on array and also using in-built functions using array file.
+- `Methods/` - Writing programs by dividing code in short part and writing it into methods.
+- `Classes_and-Objects/` - Learned about instance variable, static keyword/method, this keyword and constructors.
 
 ## 📝 How to Use
 
