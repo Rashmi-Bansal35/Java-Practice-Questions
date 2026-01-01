@@ -1,11 +1,10 @@
 /*
-To write a Java program that calculates income tax based on income and gender 
-using if statements and follows different tax slabs for general and women.
+To write a Java program that calculates income tax based on income and gender using if statements and follows different tax slabs for general and women.
  */
-package Statements;
+package Experiments;
 import java.util.Scanner;
 
-public class IncomeTaxCalculator{
+public class Experiment3{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 

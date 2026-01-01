@@ -10,6 +10,7 @@ public class Cash {
         int purchase = input.nextInt();
         int change = cash - purchase;
         int[] notes = {1000, 500, 200, 100, 50, 20, 10};
+        System.out.println("Amount left: ");
         if(change != 0){
             for(int note: notes){
                 if(change >= note){
@@ -21,6 +22,9 @@ public class Cash {
                     break;
                 }
             }
+        }
+        else {
+            System.out.println("Not enough balance");
         }
         input.close();
     }

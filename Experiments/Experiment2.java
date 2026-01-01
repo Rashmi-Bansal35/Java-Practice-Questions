@@ -1,10 +1,10 @@
+package Experiments;
 /*
-To write a Java program that accepts two numbers from the user, swaps them 
-without using a temporary variable, and displays the result. 
+To write a Java program that accepts two numbers from the user, swaps them without using a temporary variable, and displays the result. 
  */
 import java.util.Scanner;
 
-public class SwapNumbers{
+public class Experiment2{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.print("Enter 1st number: ");

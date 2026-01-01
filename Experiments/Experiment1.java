@@ -1,11 +1,10 @@
+package Experiments;
 /*
-To develop a Java program that accepts the total number of eggs as input from the 
-user and calculates the equivalent number of gross (1 gross = 144 eggs), dozen (1 dozen 
-= 12 eggs), and the remaining eggs, then displays the result.
+To develop a Java program that accepts the total number of eggs as input from the user and calculates the equivalent number of gross (1 gross = 144 eggs), dozen (1 dozen = 12 eggs), and the remaining eggs, then displays the result.
  */
 import java.util.Scanner;
 
-public class EggCalculater{
+public class Experiment1{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.print("Enter total number of eggs: ");
