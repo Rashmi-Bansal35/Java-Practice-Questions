@@ -23,6 +23,7 @@ public class Deletion {
         int delete = input.nextInt();
 
         int position = -1;
+        
         // Find the index of element
         for (int i = 0; i < arr.length; i++){
             if (arr[i] == delete){
