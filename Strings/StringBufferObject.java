@@ -1,28 +1,41 @@
 package Strings;
 
 public class StringBufferObject {
-    public static void main(String[] args){
+    public static void main(String[] args) {
+
         StringBuffer sb = new StringBuffer();
-        // It gives a capacity of 16 bytes which is called buffer size
-        System.out.println(sb.capacity()); // Prints the capacity
+
+        // Default capacity of StringBuffer is 16 characters.
+        System.out.println(sb.capacity());
 
         StringBuffer sb2 = new StringBuffer("Rashmi");
-        // Gives actual buffer size + our input length so that if there is no continous memory available in memory during changes it doesn't have to rellocate the data
 
-        System.out.println(sb2.length()); // Prints length of stringBuilder
-        System.out.println(sb2.append(" Bansal")); // Appends the stringBuilder
+        // Capacity = String length + 16
+        // Here: 6 + 16 = 22
+        System.out.println(sb2.capacity());
 
-        String str = sb2.toString(); // Coverts from stringBuilder to string
+        // Returns the number of characters currently stored.
+        System.out.println(sb2.length());
 
-        System.out.println(sb2.deleteCharAt(3)); // Deletes character from specific location
+        // Appends text at the end.
+        System.out.println(sb2.append(" Bansal"));
 
-        System.out.println(sb.insert(2, " Java ")); // Inserts character or word at specific location
+        // Converts StringBuffer to String.
+        String str = sb2.toString();
 
-        sb2.setLength(14); // Sets length if less than specidied length then null
+        // Deletes character at the specified index.
+        System.out.println(sb2.deleteCharAt(3));
 
-        // Difference in StringBuilder & StringBuffer
-        // StringBuffer -> Thread Safe
-        // StringBuilder -> Not Thread Safe
+        // Inserts text at the specified index.
+        System.out.println(sb2.insert(2, " Java "));
 
+        // Sets the length of the StringBuffer.
+        // If the new length is greater than the current length,
+        // null characters (\u0000) are added at the end.
+        sb2.setLength(14);
+
+        // StringBuffer vs StringBuilder
+        // StringBuffer  -> Thread-safe (synchronized)
+        // StringBuilder -> Not thread-safe (faster)
     }
 }
