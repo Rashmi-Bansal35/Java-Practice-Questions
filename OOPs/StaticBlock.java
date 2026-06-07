@@ -81,4 +81,21 @@ Execution Order:
 
 8. Class.forName() throws ClassNotFoundException,
    so it must be handled using try-catch or throws.
+
+Naming Canvenetions:
+1. Camel Case: The first word starts with a lowercase letter, and each subsequent word starts with an uppercase letter. 
+    Example: showMyMarks()
+
+2. Snake Case: Words are separated using underscores (_).
+    Example: show_my_marks
+
+1. Classes and Interfaces → PascalCase
+   Example: Student, Runnable
+2. Variables and Methods → camelCase
+   Example: studentName, showMarks()
+3. Constants → UPPER_CASE
+   Example: PI, MAX_VALUE
+4. Packages → lowercase
+   Example: java.util, oops
+5. Java prefers Camel Case over Snake Case.
 */
